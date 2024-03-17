@@ -73,7 +73,7 @@ class UserController extends Controller
     public function updateIndex($id)
     {
         $user = User::find($id);
-        return view('user.edit', with([
+        return view('user.adminedit', with([
             'user' => $user,
             'bagian' => ['Press Welding', 'Line Coating', 'Line Molding'],
         ]));
