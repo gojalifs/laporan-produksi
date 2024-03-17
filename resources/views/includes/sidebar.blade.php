@@ -23,7 +23,7 @@
             @if (Auth::user()->bagian != 'Admin Produksi')
                 <li>
                     <a href="{{ route('production') }}" class="nav-link">
-                        <img src="{{ asset('img/svg/add.svg') }}" style="margin-right:6px">
+                        <img src="{{ asset('img/svg/product.svg') }}" style="margin-right:6px">
                         <span>Mulai Produksi</span>
                     </a>
                 </li>

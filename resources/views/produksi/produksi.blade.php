@@ -109,6 +109,7 @@
                                     <th class="text-center">No</th>
                                     <th>Kode Produk</th>
                                     <th>No. LOT</th>
+                                    <th>Jumlah</th>
                                     <th>Bagian</th>
                                     <th>Departemen</th>
                                     <th>Status</th>
@@ -119,6 +120,7 @@
                                         <td class="p-0 text-center">{{ $i + 1 }}</td>
                                         <td class="font-weight-600">{{ $p->product_id }}</td>
                                         <td class="text-truncate">{{ $p->lot_number }}</td>
+                                        <td class="align-middle">1 Box (30 pcs)</td>
                                         <td class="align-middle">{{ $p->bagian }}</td>
                                         <td class="align-middle">{{ $p->departemen }}</td>
                                         <td class="align-middle">
